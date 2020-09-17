@@ -18,4 +18,16 @@
 ## Sorting Algorithms
 ### 1. <a href="sorting/bubble_sort.py">Bubble Sort algorithm</a>
 ### 2. <a href="sorting/merge_sort.py">Merge Sort algorithm</a>
+### 3. <a href="sorting/quick_sort.py">Quick Sort algorithm</a>
 
+## Searching Data
+### 1. <a href="searching_data/unordered_list.py">Searching data from an unordered list</a>
+### 2. <a href="searching_data/ordered_list.py">Searching data from an ordered list</a>
+### 3. <a href="searching_data/is_sorted.py">Determine if a list is sorted or not</a>
+
+## Other Algorithms
+### 1. <a href="other_algorithms/filter.py">Unique filtering with hash table</a>
+
+### 2. <a href="other_algorithms/counting.py">Value counting with hash table(using a hashtable to count individual items)</a>
+
+### 3. <a href="other_algorithms/find_max.py"></a>
