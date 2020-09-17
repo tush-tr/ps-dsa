@@ -14,3 +14,8 @@
 
 ### 1. <a href="recursion/countdown.py">Countdown Program using recursion.</a>
 ### 2. <a href="recursion/factorial.py">Factorial and power of program using recursion.</a>
+
+## Sorting Algorithms
+### 1. <a href="sorting/bubble_sort.py">Bubble Sort algorithm</a>
+### 2. <a href="sorting/merge_sort.py">Merge Sort algorithm</a>
+
