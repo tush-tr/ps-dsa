@@ -3,3 +3,4 @@
 # Data Structures and Algorithms
 ## <a href="introduction_to_algorithms">Introduction to Data Structures and Algorithms</a>
 ## <a href="introduction_to_algorithms">Introduction to Time complexity and big O notation</a>
+## <a href="asymptotic_notations">Asymptotic Notations</a>
