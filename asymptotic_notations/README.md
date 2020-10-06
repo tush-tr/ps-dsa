@@ -46,6 +46,13 @@ Graphic example of Big theta ( θ )
 
 <img src="bigthetagraph.png">
 
+## Which one of these to use?
 
+Since Big theta gives a better picture of run time for a given algorithm, most of the interviewers expect you to provide an answer in terms of Big theta when they say “order of”.<br>
 
+<b>Quick Quiz:</b> Prove that n2+n+1 is O(n3), Ω(n2), and θ(n2) using respective definitions.
 
+ 
+
+### Increasing order of common runtimes
+<img src="last.png">
