@@ -105,7 +105,6 @@ int main(){
     return 0;
 }
 ```
-
 <li><a href="swap.cpp">Swap two numbers using bitwise operators.</a></li>
 
 ```C++
@@ -276,8 +275,9 @@ int main(){
     cout<<result1<<endl<<result2<<endl;
 }
 ```
-<li><a href=""></a></li>
+<li><a href="find-nonrepeating-thrice.cpp">Find the only repeating element in an array where every other element repeats thrice.</a></li>
 
 ```C++
+
 ```
 </ol>
