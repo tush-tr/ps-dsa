@@ -20,12 +20,10 @@ int main(){
         if(a[i]&rightmost){
             x = x^a[i];
         }
-
     }
     cout<<"XOR of first set: "<<x<<endl;
     cout<<"______Results_________"<<endl;
     int result1 = res^x;
     int result2 = res^result1;
     cout<<result1<<endl<<result2<<endl;
-
 }
