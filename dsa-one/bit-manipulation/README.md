@@ -85,6 +85,48 @@ n = n<<1; // insted of n *=2
 <br>x | (x - (1 << n)) = x, with the run of cleared bits (possibly length 0) starting at bit n set.
 <br>x | ~(x - (1 << n)) = the lowest run of cleared bits (possibly length 0) in x, starting at bit n are the only clear bits.
 
+## <li> <a href="impfunctions.cpp">Important functions for bit manipulation</a>
+```C++
+#include<iostream>
+using namespace std;
+int getbit(int n, int pos){
+    return ((n & (1<<pos))!=0);
+}
+int setbit(int n,int pos){
+    n = n | (1<<pos);
+    return n;
+}
+int clearbit(int n, int pos){
+    return n & (~(1<<pos));
+}
+int countsetbits(int n){
+    // n & (n-1) will clear rightmost set bit
+    int result = 0;
+    while(n>0){
+        result++;
+        n = n& (n-1);
+    }
+    return result;
+}
+int findNonRepeatingElement(int arr[],int length){
+    int result = 0;
+    for(int i=0;i<length;i++){
+        result = result ^ arr[i];
+    }
+    return result;
+}
+
+int main(){
+    cout<<getbit(5,1)<<endl; // 5 - 101 - output - 0
+    cout<<setbit(5,1)<<endl; // 5 - 101 after setbit - 111 output - 7
+    cout<<clearbit(7,1)<<endl; // 7 - 111 after clear bit - 101 output - 5
+    cout<<countsetbits(5)<<endl; // 5 - 101 output - 2
+    int arr[7] = {5,4,1,4,3,5,1};
+    cout<<findNonRepeatingElement(arr,7)<<endl; // output - 3
+}
+```
+
+
 
 ## Questions
 <ol>
@@ -278,6 +320,44 @@ int main(){
 <li><a href="find-nonrepeating-thrice.cpp">Find the only repeating element in an array where every other element repeats thrice.</a></li>
 
 ```C++
+#include <iostream>
+using namespace std;
+int getbit(int n, int i)
+{
+    int mask = 1 << i;
+    return ((n & mask) != 0);
+}
+int main()
+{
+    int a[] = {2, 2, 1, 5, 1, 1, 2};
+    int INT_SIZE = 8 * sizeof(unsigned int); 
+    // TODO: Initialize an count array of 32 bits
+    int allsum[INT_SIZE];
+    for (int pos = 0; pos < INT_SIZE; pos++)
+    {
+        int count = 0;
+        for (int i = 0; i < 7; i++)
+        {
+            // TODO: Get bit on every position
+            count += getbit(a[i], pos);
+        }
+        // TODO: Add bit counts in the array
+        allsum[pos] = count;
+    }
 
+    // Now we have the array of bit counts for every element
+    // for (int i = 0; i < 32; i++)
+    // {
+    //     cout << allsum[i] << endl;
+    // }
+    
+    unsigned res = 0; 
+    int k = 3;
+    for (int i = 0; i < INT_SIZE; i++) 
+        res += (allsum[i] % k) * (1 << i); 
+    cout<<"_________Result________"<<endl<<res<<endl;
+}
 ```
+
+
 </ol>
