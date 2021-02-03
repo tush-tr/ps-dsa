@@ -22,10 +22,10 @@
 <li><a href="mathematics/factorial.cpp">Find factorial of a given number </a></li>
 <li><a href="mathematics/trailingzero.cpp">Find number of trailng zeros in factorial of a number.</a></li>
 
+<li><a href="mathematics/sieve.cpp"> <b>Sieve of Eratosthenes</b> Given a number n, print all primes smaller than or equal to n.</a></li>
 
 
-
-
+<li><a href="mathematics/gcd.cpp"> A recursive function to evaluate gcd using Euclid’s algorithm </a></li>
 
 
 

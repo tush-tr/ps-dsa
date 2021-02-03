@@ -71,7 +71,7 @@ The algorithm is based on the below facts.
 <li>If we subtract a smaller number from a larger (we reduce a larger number), GCD doesn’t change. So if we keep subtracting repeatedly the larger of two, we end up with GCD.
 <li>Now instead of subtraction, if we divide the smaller number, the algorithm stops when we find remainder 0.
 </ul>
-<li><a href="gcd.cpp"> Arecursive function to evaluate gcd using Euclid’s algorithm </a></li>
+<li><a href="gcd.cpp"> A recursive function to evaluate gcd using Euclid’s algorithm </a></li>
 <li><a href=""> </a></li>
 <li><a href=""> </a></li>
 <li><a href=""> </a></li>
