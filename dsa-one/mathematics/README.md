@@ -59,7 +59,19 @@ square root of 12 = 3(approximately) so we will set multiples false of numbers t
 </table>
 
 <li><a href="sieve.cpp">Given a number n, print all primes smaller than or equal to n.</a></li>
-<li><a href=""> </a></li>
+<hr>
+
+## Euclid GCD
+GCD of two numbers is the largest number that divides both of them. A simple way to find GCD is to factorize both numbers and multiply common prime factors.
+<br>
+
+### **Basic Euclidean Algorithm for GCD.** 
+The algorithm is based on the below facts. 
+<ul>
+<li>If we subtract a smaller number from a larger (we reduce a larger number), GCD doesn’t change. So if we keep subtracting repeatedly the larger of two, we end up with GCD.
+<li>Now instead of subtraction, if we divide the smaller number, the algorithm stops when we find remainder 0.
+</ul>
+<li><a href="gcd.cpp"> Arecursive function to evaluate gcd using Euclid’s algorithm </a></li>
 <li><a href=""> </a></li>
 <li><a href=""> </a></li>
 <li><a href=""> </a></li>
