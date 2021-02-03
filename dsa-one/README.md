@@ -26,6 +26,7 @@
 
 
 <li><a href="mathematics/gcd.cpp"> A recursive function to evaluate gcd using Euclid’s algorithm </a></li>
+<li><a href="mathematics/fastpower.cpp">Modulo Arithmetics</a></li>
 
 
 
