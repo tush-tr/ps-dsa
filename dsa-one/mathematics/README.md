@@ -72,7 +72,8 @@ The algorithm is based on the below facts.
 <li>Now instead of subtraction, if we divide the smaller number, the algorithm stops when we find remainder 0.
 </ul>
 <li><a href="gcd.cpp"> A recursive function to evaluate gcd using Euclid’s algorithm </a></li>
-<li><a href=""> </a></li>
+
+### <li><a href="fastpower.cpp">Modulo Arithmetics</a></li>
 <li><a href=""> </a></li>
 <li><a href=""> </a></li>
 </ol>
