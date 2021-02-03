@@ -13,10 +13,10 @@ void sieveoferatosthenes(int n){
         }
     }
     for(int p = 2; p <= n; p++)
-        if (isprime[p])
+        if (isprime[p]){
             cout << p << " ";
+        }
 }
 int main(){
     sieveoferatosthenes(12);
-
 }
