@@ -73,7 +73,16 @@ The algorithm is based on the below facts.
 </ul>
 <li><a href="gcd.cpp"> A recursive function to evaluate gcd using Euclid’s algorithm </a></li>
 
-### <li><a href="fastpower.cpp">Modulo Arithmetics</a></li>
-<li><a href=""> </a></li>
-<li><a href=""> </a></li>
+### <li><a href="fastpower.cpp">Modulo Arithmetic</a></li>
+> ( a + b ) % M = ( ( a % M ) + ( b % M ) ) % M
+
+> ( a - b )% M = ( ( a % M ) - ( b % M ) + M ) % M
+
+> (a x b) % M = ( (a % M) x (a % M) ) % M
+
+> (a / b) % M = ( (a %M) x ((b)^-1) % M ) % M
+
+
+### <li><a href="fastpower.cpp">Fast Power</a></li>
+
 </ol>
