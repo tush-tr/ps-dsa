@@ -1,6 +1,14 @@
 # Data Structures and Algorithms
 <ol>
 
+## <a href="introduction">Introduction</a>
+
+<li><a href="introduction/introduction_to_algorithms">Introduction to Data Structures and Algorithms</a>
+<li><a href="introduction/time_complexity">Introduction to Time complexity and big O notation</a>
+<li><a href="introduction/asymptotic_notations">Asymptotic Notations</a>
+<li><a href="introduction/cases">Worst Case, Best Case and average case</a>
+<li><a href="introduction/adt_and_arrays">ADT and Arrays</a>
+
 ## <a href="bit-manipulation">Bit Manipulation</a>
 
 <li><a href="bit-manipulation/evenodd.cpp">Check even odd number without using % operator.</a></li>
@@ -26,7 +34,8 @@
 
 
 <li><a href="mathematics/gcd.cpp"> A recursive function to evaluate gcd using Euclid’s algorithm </a></li>
-<li><a href="mathematics/fastpower.cpp">Modulo Arithmetics</a></li>
+<li><a href="mathematics/modulo.cpp">Modulo Arithmetics</a></li>
+<li><a href="mathematics/fastpower.cpp">Fast Power</a></li>
 
 
 
