@@ -3,7 +3,6 @@
 ### <li> <a href="#intro">Getting Started with algorithms using python</a>
 ### <li><a href="#dsa-one">Complete DSA topics and quesions in C++</a>
 ### <li><a href="">JavaScript data structures and algorithms</a>
-### <li><a href="">Data structures and algorithms made easy book questions</a>
 
 <hr>
 
