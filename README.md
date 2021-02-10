@@ -28,7 +28,7 @@
 <h3>
 <ol>
 
-<li><a href="dsa-one/bit-manipulation">Introduction to data structures, algorithms and time complexity</a>
+<li><a href="dsa-one/introduction">Introduction to data structures, algorithms and time complexity</a>
 <li><a href="dsa-one/bit-manipulation">Bit Manipulation</a>
 <li><a href="dsa-one/mathematics">Mathematics</a>
 
