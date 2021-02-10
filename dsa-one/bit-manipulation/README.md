@@ -9,44 +9,41 @@ data = 5
 binary code = 101
 
 <table>
-<tr></tr>
+
 <tr>
 <td> 0</td><td> 0</td><td> 0</td><td> 0</td><td> 0</td><td> 1</td><td> 0</td><td> 1  </td>
 </tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
 </table>
 
 ## Bitwise operators
 <table>
-<tr>
 <tr><td>a</td><td>b</td><td>& (AND)</td><td>| (OR)</td><td>^ (XOR)</td></tr>
 <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr>
 <tr><td>0</td><td>1</td><td>0</td><td>1</td><td>1</td></tr>
 <tr><td>1</td><td>0</td><td>0</td><td>1</td><td>1</td></tr>
 <tr><td>1</td><td>1</td><td>1</td><td>1</td><td>0</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td>
+
 </table>
 
 ### Right Shift operator(>>)
 5 >> 1 <br>
 <table>
-<tr></tr>
 <tr>
 <td> 0</td><td> 0</td><td> 0</td><td> 0</td><td> 0</td><td> 1</td><td> 0</td><td> 1  </td>
 </tr>
 <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+
 </table>
 
 ### Left Shift Operator(<<)
 5 << 1
 <table>
-<tr></tr>
+
 <tr>
 <td> 0</td><td> 0</td><td> 0</td><td> 0</td><td> 0</td><td> 1</td><td> 0</td><td> 1  </td>
 </tr>
 <tr><td>0</td><td>0</td><td>0</td><td>0</td><td>1</td><td>0</td><td>1</td><td>0</td></tr>
-<tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+
 </table>
 
 ## Important Points
@@ -132,232 +129,26 @@ int main(){
 <ol>
 <li><a href="evenodd.cpp">Check even odd number without using % operator.</a></li>
 
-```C++
-#include<iostream>
-using namespace std;
-int main(){
-    int n;
-    cin>>n;
-    if((n&1)==0){
-        cout<<"Even"<<endl;
-    }
-    else{
-        cout<<"Odd"<<endl;
-    }
-    return 0;
-}
-```
 <li><a href="swap.cpp">Swap two numbers using bitwise operators.</a></li>
-
-```C++
-#include<iostream>
-using namespace std;
-int main(){
-    int a,b;
-    cout << "Enter the value of a: ";
-    cin>>a;
-    cout<< "Enter the value of b: ";
-    cin>>b;
-
-    a = a^b;
-    b = a^b;
-    a = a^b;
-    cout<<"Value of a: "<<a<<endl;
-    cout<<"Value of b: "<<b<<endl;
-    return 0;
-}
-```
 
 <li><a href="getbit.cpp">Get bit at ith position</a></li>
 
-```C++
-int getbit(int n, int i){
-    int mask = 1<<i;
-    return (n & mask);
-}
-```
 <li><a href="setbit.cpp">Set bit at ith position</a></li>
 
-```C++
-int setbit(int n, int i){
-    int mask = 1<<i;
-    n = n|mask;
-    return n;
-}
-```
+
 
 <li><a href="clearbit.cpp">Clear the bit at ith position</a></li>
 
-```C++
-int clearbit(int n, int pos)
-{
-    int mask = ~(1<<pos);
-    n = n & mask;
-    return n;
-}
-```
 <li><a href="numberofbits1.cpp">Find number of bits to change to convert a to b</a></li>
 
-```C++
-// TODO: Find number of bits to change to convert a to b.
-#include<iostream>
-using namespace std;
-int main(){
-    int a,b;
-    cin>>a>>b;
-    // TODO: Check how many bits are different using XOR operator
-    int n = a ^ b;
-    // TODO: Find how many set bits are there in a binary number n
-    // Approach: right shift the number till it becomes zero
-    int count = 0;
-    while(n!=0){
-        int check = n & 1;
-        if(check ==1){
-            count++;
-        }
-        n = n>>1;
-    }
-    // _______________ Time Complexity of this approach - log n
-    cout<<count<<endl;
-}
-```
 <li><a href="numberofbits2.cpp">Find number of bits to change to convert a to b, Approach 2 - using- n & (n-1)</a></li>
 
-```C++
-// TODO: Find number of bits to change to convert a to b.
-#include<iostream>
-using namespace std;
-int main(){
-    int a,b;
-    cin>>a>>b;
-    // TODO: Check how many bits are different using XOR operator
-    int n = a ^ b;
-    // TODO: Find how many set bits are there in a binary number n
-    // Approach: clear least set bit till it becomes zero using -- n & (n-1)
-    int count = 0;
-    while(n!=0){
-        count++;
-        n = n & (n-1);
-    }
-    cout<<count<<endl;
-}
-```
 <li><a href="trailingzero.cpp">Given an integer A, count and return the number of trailing zeroes.</a></li>
 
-```C++
-#include <iostream>
-using namespace std;
-int main()
-{
-    int A;
-    cin >> A;
-    int count = 0;
-    while (A != 0)
-    {
-        int check = A & 1;
-        cout << check << endl;
-        if (check == 0)
-        {
-            count++;
-        }
-        else
-        {
-            break;
-        }
-        A = A >> 1;
-    }
-    cout << count << endl;
-}
-```
 <li><a href="find-nonrepeating.cpp">Find the only non repeating element in an array where element repeat twice.</a></li>
 
-```C++
-#include<iostream>
-using namespace std;
-int main(){
-    int a[7] = {5,4,1,4,3,5,1};
-    int result = 0;
-    for(int i=0;i<7;i++){
-        result = result^a[i];
-    }
-    cout<<result<<endl;
-}
-```
 <li><a href="find-two-nonrepeating.cpp">Find the two non-repeating elements in an array where every element repeats twice.</a></li>
 
-```C++
-#include<iostream>
-using namespace std;
-int main(){
-    int a[8] ={5,4,1,4,3,5,1,2};
-    // TODO: Get the XOR of all of elements in the array
-    int res = 0;
-    for(int i=0;i<=7;i++){
-        res = res^a[i];
-    }
-    cout<<"XOR of array: "<<res<<endl;
-    // TODO: get the right most set bit in the res
-    int rightmost = res & ~(res-1);
-
-    cout<<"Rightmost bit in array: "<<rightmost<<endl;
-
-    // TODO: devide array elements comparing rightmost set bit of res with bit 
-    // at same position in each element.
-    int x = 0;
-    for(int i=0;i<7;i++){
-        if(a[i]&rightmost){
-            x = x^a[i];
-        }
-
-    }
-    cout<<"XOR of first set: "<<x<<endl;
-    cout<<"______Results_________"<<endl;
-    int result1 = res^x;
-    int result2 = res^result1;
-    cout<<result1<<endl<<result2<<endl;
-}
-```
 <li><a href="find-nonrepeating-thrice.cpp">Find the only repeating element in an array where every other element repeats thrice.</a></li>
-
-```C++
-#include <iostream>
-using namespace std;
-int getbit(int n, int i)
-{
-    int mask = 1 << i;
-    return ((n & mask) != 0);
-}
-int main()
-{
-    int a[] = {2, 2, 1, 5, 1, 1, 2};
-    int INT_SIZE = 8 * sizeof(unsigned int); 
-    // TODO: Initialize an count array of 32 bits
-    int allsum[INT_SIZE];
-    for (int pos = 0; pos < INT_SIZE; pos++)
-    {
-        int count = 0;
-        for (int i = 0; i < 7; i++)
-        {
-            // TODO: Get bit on every position
-            count += getbit(a[i], pos);
-        }
-        // TODO: Add bit counts in the array
-        allsum[pos] = count;
-    }
-
-    // Now we have the array of bit counts for every element
-    // for (int i = 0; i < 32; i++)
-    // {
-    //     cout << allsum[i] << endl;
-    // }
-    
-    unsigned res = 0; 
-    int k = 3;
-    for (int i = 0; i < INT_SIZE; i++) 
-        res += (allsum[i] % k) * (1 << i); 
-    cout<<"_________Result________"<<endl<<res<<endl;
-}
-```
-
 
 </ol>
