@@ -1,15 +1,48 @@
 #include<iostream>
 using namespace std;
+
+// TODO: Check Kth bit is set or not
+int checkKthBit(int n,int k){
+    int mask =  1 << (k-1);
+    n = n & mask;
+    return n;
+}
+
+// TODO: Get bit at ith position
 int getbit(int n, int pos){
     return ((n & (1<<pos))!=0);
 }
+
+// TODO: Set the bit at ith position
 int setbit(int n,int pos){
     n = n | (1<<pos);
     return n;
 }
+
+// TODO: Clear the bit at ith position
 int clearbit(int n, int pos){
     return n & (~(1<<pos));
 }
+
+//  TODO: Toggling kth bit -- use expression n^(1 << k-1)
+int togglebit(int n,int k){
+    int mask = 1<<(k-1);
+    return n ^ mask;
+}
+
+// TODO: Toggling right One bit- usee expression n & n-1
+int toggleRightMostOne(int n){
+    return n ^ (n-1);
+}
+
+// // TODO: Isolating rightmost bit
+// int isolateRightMostOne(int n){
+
+// }
+
+
+
+// TODO: Count all set bits in an integer
 int countsetbits(int n){
     // n & (n-1) will clear rightmost set bit
     int result = 0;
@@ -19,6 +52,12 @@ int countsetbits(int n){
     }
     return result;
 }
+
+
+
+
+
+// TODO: Find non repeating element in an array
 int findNonRepeatingElement(int arr[],int length){
     int result = 0;
     for(int i=0;i<length;i++){
@@ -26,6 +65,7 @@ int findNonRepeatingElement(int arr[],int length){
     }
     return result;
 }
+
 
 int main(){
     cout<<getbit(5,1)<<endl; // 5 - 101 - output - 0

@@ -6,7 +6,5 @@ int getbit(int n, int i){
 }
 int main(){
     cout<<getbit(5,1)<<endl;
-
-
     return 0;
 }
