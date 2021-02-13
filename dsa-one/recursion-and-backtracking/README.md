@@ -19,5 +19,12 @@ Recursion - 3 - Steps:-<br>
 </li>
 <li>
 <a href="recursion/ways.cpp">Find the number of ways in n X m matrix.</a>
+</li><li>
+<a href="recursion/josephus.cpp">Josephus Problem</a><br><a href="https://www.geeksforgeeks.org/josephus-problem-set-1-a-on-solution/">------------See problem statement</a>
 </li>
+
+### Recursion on Strings
+<li><a href="palindrome.cpp">Check if a string is palindrome or not using recursion.</a></li>
+<li><a href="powerset.cpp">Print the powerset of a string.</a></li>
+
 </ol>
