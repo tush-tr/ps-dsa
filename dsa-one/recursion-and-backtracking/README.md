@@ -24,7 +24,7 @@ Recursion - 3 - Steps:-<br>
 </li>
 
 ### Recursion on Strings
-<li><a href="palindrome.cpp">Check if a string is palindrome or not using recursion.</a></li>
-<li><a href="powerset.cpp">Print the powerset of a string.</a></li>
-
+<li><a href="recursion/palindrome.cpp">Check if a string is palindrome or not using recursion.</a></li>
+<li><a href="recursion/powerset.cpp">Print the powerset of a string.</a></li>
+<li><a href="recursion/permutation.cpp">Print permutations of a given string.</a></li>
 </ol>

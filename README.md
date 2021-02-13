@@ -30,7 +30,7 @@
 <li><a href="dsa-one/introduction">Introduction to data structures, algorithms and time complexity</a>
 <li><a href="dsa-one/bit-manipulation">Bit Manipulation</a>
 <li><a href="dsa-one/mathematics">Mathematics</a>
-
+<li><a href="dsa-one/recursion-and-backtracking">Recursion and Backtracking</a>
 
 
 

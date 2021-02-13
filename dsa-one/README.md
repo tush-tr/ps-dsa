@@ -37,16 +37,33 @@
 <li><a href="mathematics/modulo.cpp">Modulo Arithmetics</a></li>
 <li><a href="mathematics/fastpower.cpp">Fast Power</a></li>
 
+## <a href="recursion-and-backtracking">Recursion and Backtracking</a>
 
-
-
-
-
-
-
-
-
-
-
-
+<li>
+<a href="recursion-and-backtracking/recursion/sum.cpp">Find the sum of n natural numbers using recursion.</a>
+</li>
+<li>
+<a href="recursion-and-backtracking/recursion/pow.cpp">Find pow(a,b) using recursion.</a>
+</li>
+<li>
+<a href="recursion-and-backtracking/recursion/ways.cpp">Find the number of ways in n X m matrix.</a>
+</li><li>
+<a href="recursion-and-backtracking/recursion/josephus.cpp">Josephus Problem</a>
+</li>
+<li><a href="recursion-and-backtracking/recursion/palindrome.cpp">Check if a string is palindrome or not using recursion.</a></li>
+<li><a href="recursion-and-backtracking/recursion/powerset.cpp">Print the powerset of a string.</a></li>
+<li><a href="recursion-and-backtracking/recursion/permutation.cpp">Print permutations of a given string.</a></li>
 </ol>
+
+
+
+
+
+
+
+
+
+
+
+
+
