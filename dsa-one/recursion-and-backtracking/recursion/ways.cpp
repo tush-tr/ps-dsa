@@ -1,3 +1,7 @@
+// Condition- At any particular cell the
+//  possible moves are either down or right, no other steps possible.
+// Stop when the end is reached.
+
 #include<iostream>
 using namespace std;
 int numberOfWays(int m,int n){
