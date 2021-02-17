@@ -4,6 +4,12 @@ using namespace std;
 // TODO: Insertion and Deletion
 class Operations{
     public:
+    void display(int arr[],int n){
+        for(int i=0;i<n;i++){
+            cout<<arr[i]<<" ";
+        }
+        cout<<endl;
+    }
     // Insertion into array
     int insertion(int arr[],int size, int element, int capacity, int index){
         if(size>=capacity){
@@ -60,18 +66,26 @@ class Searching{
 // TODO: Bubble Sort, Selection Sort, Insertion Sort
 class Sorting{
     public:
-    int bubbleSort(int arr[],int size){
-        for(int i=0;i<size;i++){
-            if(arr[i]>arr[i+1]){
-                swap(arr[i],arr[i+1]);
+    // Bubble Sort
+    void bubbleSort(int arr[],int n){
+    for(int i=0;i<n-1;i++){
+        for(int j=0;j<n-1-i;j++){
+            if(arr[j]>arr[j+1]){
+                swap(arr[j],arr[j+1]);
+
             }
         }
     }
+}
+
 };
 int main(){
     Searching search;
     Operations oper;
+    Sorting sortArray;
     int arr[] = {1,2,3,4,5,7,8};
+    int A[] = {7,11,9,2,17,4};
+    int An = 6;
     int size = sizeof(arr)/sizeof(arr[0]);
     cout<<"Inserted or not?_______"<<endl;
     cout<<oper.insertion(arr,size,6, 8, 5)<<endl;
@@ -83,4 +97,13 @@ int main(){
     cout<<"Index of 5 is: "<<search.linearSearch(arr,size,5)<<endl;
     cout<<"__________Binary Search_________"<<endl;
     cout<<"Index of 5 is: "<<search.binarySearch(arr,size,5)<<endl;
+
+    // _____Sorting_______
+    cout<<"_________Before Bubble Sort_______"<<endl;
+    oper.display(A,An);
+    cout<<"_________After Bubble Sort________"<<endl;
+    sortArray.bubbleSort(A,An);
+    oper.display(A,An);
+
+
 }
