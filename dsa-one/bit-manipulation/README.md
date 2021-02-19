@@ -123,6 +123,46 @@ int main(){
 }
 ```
 
+## <a href="bit-tricks.cpp"> Bit tricks for CP</a>
+
+1) Clear all bits from LSB to ith bit
+```C++
+mask = ~((1 << i+1 ) - 1);
+x &= mask;
+```
+
+2) Clearing all bits from MSB to i-th bit
+```C++
+mask = (1 << i) - 1;
+x &= mask;
+```
+3) Upper case English alphabet to lower case
+```C++
+ch |= ' ';
+```
+4) Lower case English alphabet to upper case
+
+```C++
+ch &= '_’;
+```
+5) Find log base 2 of 32 bit integer
+```C++
+int log2(int x) 
+{ 
+    int res = 0; 
+    while (x >>= 1) 
+        res++; 
+    return res; 
+} 
+```
+6) Checking if given 32 bit integer is power of 2
+
+```C++
+int isPowerof2(int x) 
+{ 
+    return (x && !(x & x-1)); 
+} 
+```
 
 
 ## Questions
@@ -134,9 +174,6 @@ int main(){
 <li><a href="getbit.cpp">Get bit at ith position</a></li>
 
 <li><a href="setbit.cpp">Set bit at ith position</a></li>
-
-
-
 <li><a href="clearbit.cpp">Clear the bit at ith position</a></li>
 
 <li><a href="numberofbits1.cpp">Find number of bits to change to convert a to b</a></li>
