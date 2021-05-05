@@ -28,3 +28,9 @@ Recursion - 3 - Steps:-<br>
 <li><a href="recursion/powerset.cpp">Print the powerset of a string.</a></li>
 <li><a href="recursion/permutation.cpp">Print permutations of a given string.</a></li>
 </ol>
+
+## Backtracking
+
+<li><a href="backtracking/n-queen.js">N- Queen Problem</a><br>-----<a href="https://www.geeksforgeeks.org/n-queen-problem-backtracking-3/#:~:text=The%20N%20Queen%20is%20the,blocks%20where%20queens%20are%20placed.">Problem statement link</a>
+
+
