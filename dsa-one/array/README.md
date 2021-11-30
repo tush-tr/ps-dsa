@@ -95,13 +95,6 @@ A binary search however, cut down your search to half as soon as you find middle
 </tr>
 </table>
 
+<li><a href="que1.js">Majority element in an array</a>
 
 
-
-```C++
-
-```
-
-```C++
-
-```
