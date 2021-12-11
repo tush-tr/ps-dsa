@@ -9,8 +9,9 @@
 <li><a href="introduction/cases">Worst Case, Best Case and average case</a>
 <li><a href="introduction/adt_and_arrays">ADT and Arrays</a>
 
-## <a href="array">Some Basic operations on arrays</a><a href="array/arrayop.cpp">
+## <a href="array">Some Basic operations on arrays</a>
 
+<a href="array/arrayop.cpp">
 <li>Insertion </li>
 <li>Deletion </li>
 <li>Linear Search </li>
