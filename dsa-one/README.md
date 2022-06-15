@@ -64,17 +64,34 @@
 <li><a href="recursion-and-backtracking/recursion/palindrome.cpp">Check if a string is palindrome or not using recursion.</a></li>
 <li><a href="recursion-and-backtracking/recursion/powerset.cpp">Print the powerset of a string.</a></li>
 <li><a href="recursion-and-backtracking/recursion/permutation.cpp">Print permutations of a given string.</a></li>
+
+
+# <a href="aray"> Arrays</a>
+<li><a href="array/majorityelement.cpp">Majority Elements in an array: Moore's voting algorithm</a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+<li><a href=""></a>
+
+
+
+
+
+
+
+
+
 </ol>
-
-
-
-
-
-
-
-
-
-
-
-
 
