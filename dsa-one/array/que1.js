@@ -30,17 +30,17 @@ const bruteforce = (arr) => {
 const mooreAlgo = (arr) => {
   let ansIndex = 0;
   let count = 1;
-  arr.forEach((el, i) => {
-    if (el == arr[ansIndex]) {
+  for(let i=1;i<arr.length;i++){
+    if(arr[i]===arr[ansIndex]){
       count++;
-    } else {
+    }else{
       count--;
     }
-    if (count === 0) {
+    if(count===0){
       ansIndex = i;
       count = 1;
     }
-  });
+  }
   // check if ansIndex is actually the answer
   let finalCount = 0;
   arr.forEach((el) => {
@@ -48,11 +48,10 @@ const mooreAlgo = (arr) => {
       finalCount++;
     }
   });
-  console.log(finalCount);
   if (finalCount > Math.floor(arr.length / 2)) {
     return arr[ansIndex];
   }
-  return false;
+  return -1;
 };
 
 // console.log(bruteforce([1, 1, 1, 2, 1, 5]));
