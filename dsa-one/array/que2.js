@@ -14,9 +14,9 @@ const bruteforce = (arr) => {
 };
 const optimized = (arr) => {
   // O(n)
-  let mxSum = 0;
+  let mxSum = arr[0];
   let currSum = 0;
-  for (let i = 1; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; i++) {
     currSum += arr[i];
     if (currSum > mxSum) {
       mxSum = currSum;
@@ -29,3 +29,6 @@ const optimized = (arr) => {
 };
 console.log(bruteforce([-5, 4, 6, -3, 4, -1]));
 console.log(optimized([-5, 4, 6, -3, 4, -1]));
+console.log(bruteforce([5,4,-1,7,8]))
+console.log(optimized([5,4,-1,7,8]))
+
