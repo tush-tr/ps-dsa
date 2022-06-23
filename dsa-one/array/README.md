@@ -103,7 +103,7 @@ A binary search however, cut down your search to half as soon as you find middle
 <li>Majority element in an array: <a href="que1.js">JavaScript</a>,<a href="que1.cpp">CPP</a>
 <li><a href="que2.js">Kadane's algo, largest sum contiguous subarray</a>
 <li><a href="leetcode121">Best time to buy and sell stock to maximise profit Leetcode - 121</a>
-<li><a href=""></a>
+<li><a href="leetcode122">Best time to buy and sell stock-2 : leetcode - 122</a>
 <li><a href=""></a>
 <li><a href=""></a>
 <li><a href=""></a>
