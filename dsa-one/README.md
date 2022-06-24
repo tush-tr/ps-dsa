@@ -9,6 +9,8 @@
 <li><a href="introduction/cases">Worst Case, Best Case and average case</a>
 <li><a href="introduction/adt_and_arrays">ADT and Arrays</a>
 
+<hr>
+
 ## <a href="array">Some Basic operations on arrays</a>
 
 <a href="array/arrayop.cpp">
@@ -19,6 +21,9 @@
 <li>Bubble Sort </li>
 <li>Selection Sort </li>
 <li>Insertion Sort </li></a>
+
+<hr>
+
 
 ## <a href="bit-manipulation">Bit Manipulation</a>
 
@@ -48,6 +53,8 @@
 <li><a href="mathematics/modulo.cpp">Modulo Arithmetics</a></li>
 <li><a href="mathematics/fastpower.cpp">Fast Power</a></li>
 
+<hr>
+
 ## <a href="recursion-and-backtracking">Recursion and Backtracking</a>
 
 <li>
@@ -64,10 +71,19 @@
 <li><a href="recursion-and-backtracking/recursion/palindrome.cpp">Check if a string is palindrome or not using recursion.</a></li>
 <li><a href="recursion-and-backtracking/recursion/powerset.cpp">Print the powerset of a string.</a></li>
 <li><a href="recursion-and-backtracking/recursion/permutation.cpp">Print permutations of a given string.</a></li>
+<hr>
 
-
-# <a href="aray"> Arrays</a>
+## <a href="aray"> Arrays</a>
 <li><a href="array/majorityelement.cpp">Majority Elements in an array: Moore's voting algorithm</a>
+<li><a href="array/que2.js">Kadane's algo, largest sum contiguous subarray</a>
+<li><a href="array/leetcode121">Best time to buy and sell stock to maximise profit Leetcode - 121</a>
+<li><a href="array/leetcode122">Best time to buy and sell stock-2 : leetcode - 122</a>
+<li><a href="array/rainwater">Rain Water Trapping question</a>
+
+
+<hr>
+
+
 <li><a href=""></a>
 <li><a href=""></a>
 <li><a href=""></a>
