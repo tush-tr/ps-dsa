@@ -14,15 +14,13 @@
 ## <a href="codes/sorting">Sorting in Arrays</a>
 
 <ul>
-
- <li><a href="codes/sorting/selectionsort.cpp">Selection Sort</a></li>
+<li><a href="codes/sorting/selectionsort.cpp">Selection Sort</a></li>
 <p>Selection Sort: <br>Find the minimum element in unsorted array and swap it with element at begining.</p>
  <li><a href="codes/sorting/bubblesort.cpp">Bubble Sort</a></li>
 <p>Bubble Sort:<br>Repeatedly swap two adjacent elements if they are in wrong order.</p>
-
- <li><a href="codes/sorting/insertionsort.cpp">Insertion Sort</a></li>
+<li><a href="codes/sorting/insertionsort.cpp">Insertion Sort</a></li>
  <p>Insertion sort: <br>Insert an element from unsorted array to it's correct position in sorted array.</p>
- <li><a href="codes/sorting/sorting.js">Sorting in JS</a></li>
+<li><a href="codes/sorting/sorting.js">Sorting in JS</a></li>
 
 </ul>
 </ul>
