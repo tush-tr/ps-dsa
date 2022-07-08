@@ -38,8 +38,28 @@ int getMxSumArray(int arr[], int N, int &mxStart, int &mxEnd)
 
 int cumulativeSum(int arr[], int N)
 {
+    int currSum[N + 1];
+    currSum[0] = 0;
+    for (int i = 1; i <= N; i++)
+    {
+        currSum[i] = currSum[i - 1] + arr[i - 1];
+    }
+    int maxSum = INT_MIN;
+    for (int i = 1; i <= N; i++)
+    {
+        int sum = 0;
+        for (int j = 0; j < i; j++)
+        {
+            sum = currSum[i] - currSum[j];
+            maxSum = max(sum, maxSum);
+        }
+    }
+    return maxSum;
 }
 
+int kadaneAlgo(int arr[], int N)
+{
+}
 int main()
 {
     int arr[4] = {-1, 4, 7, 2};
@@ -48,6 +68,7 @@ int main()
     int mxStart, mxEnd;
     int mxSum = getMxSumArray(arr, 4, mxStart, mxEnd);
     cout << "MAX SUM: " << mxSum << endl;
+    cout << "MAX SUM: " << cumulativeSum(arr, 4) << endl;
     for (int i = mxStart; i <= mxEnd; i++)
     {
         cout << arr[i] << endl;
