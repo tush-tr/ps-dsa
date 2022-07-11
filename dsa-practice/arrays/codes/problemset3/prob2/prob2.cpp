@@ -59,6 +59,18 @@ int cumulativeSum(int arr[], int N)
 
 int kadaneAlgo(int arr[], int N)
 {
+    int currSum = 0;
+    int mxSum = arr[0];
+    for (int i = 0; i < N; i++)
+    {
+        currSum += arr[i];
+        mxSum = max(currSum, mxSum);
+        if (currSum < 0)
+        {
+            currSum = 0;
+        }
+    }
+    return mxSum;
 }
 int main()
 {
@@ -69,6 +81,7 @@ int main()
     int mxSum = getMxSumArray(arr, 4, mxStart, mxEnd);
     cout << "MAX SUM: " << mxSum << endl;
     cout << "MAX SUM: " << cumulativeSum(arr, 4) << endl;
+    cout << "MAX SUM USING KADANE ALGO: " << kadaneAlgo(arr, 4) << endl;
     for (int i = mxStart; i <= mxEnd; i++)
     {
         cout << arr[i] << endl;
