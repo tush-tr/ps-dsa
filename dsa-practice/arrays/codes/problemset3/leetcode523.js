@@ -16,3 +16,4 @@ var checkSubarraySum = function(nums, k) {
 };
 
 console.log(checkSubarraySum([1,0],2))
+Number.MIN_SAFE_INTEGER
