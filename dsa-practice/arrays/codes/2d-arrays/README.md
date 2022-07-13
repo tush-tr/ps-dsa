@@ -8,3 +8,15 @@ b. Columns - Vertical Arrays in the 2D matrix.
 <li><a href="examp1.cpp">Declaration of 2-D Array</a><br>
 <li><a href="searching.cpp">Searching in a 2-D Array</a><br>
 <li><a href="spiral-order.cpp">Spiral Order Matrix Traversal</a>
+
+
+## Questions based on 2-d arrays
+- <a href="prob1">Matrix Transpose</a>
+- <a href="prob2"></a>
+- <a href="prob1"></a>
+- <a href="prob1"></a>
+- <a href="prob1"></a>
+- <a href="prob1"></a>
+- <a href="prob1"></a>
+- <a href="prob1"></a>
+- <a href="prob1"></a>
