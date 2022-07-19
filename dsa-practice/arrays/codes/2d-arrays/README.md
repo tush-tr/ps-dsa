@@ -13,7 +13,7 @@ b. Columns - Vertical Arrays in the 2D matrix.
 ## Questions based on 2-d arrays
 - <a href="prob1">Matrix Transpose</a>
 - <a href="prob2">Matrix Multiplication</a>
-- <a href="prob1"></a>
+- <a href="prob3">Matrix Search</a>
 - <a href="prob1"></a>
 - <a href="prob1"></a>
 - <a href="prob1"></a>

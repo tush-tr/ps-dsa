@@ -6,27 +6,47 @@
 <li><a href="codes/arrayque1.cpp">Find max and min element in an array</a></li>
 <li><a href="codes/que2.cpp">Running sum of an array</a></li>
 <li><a href="codes/reduceArray.js">Reduce an array in JS</a>
+</ul>
 
-### <a href="codes/operations.cpp">Operations on Array- Insertion , Deletion.</a>
+<hr>
 
-## <a href="codes/searching/searching.cpp">Searching in Arrays</a>
+## <li> <a href="codes/operations.cpp">Operations on Array- Insertion , Deletion.</a>
+## <li><a href="codes/vectorpair">Vectors and Pairs in C++</a></li>
+## <li><a href="codes/searching/searching.cpp">Searching in Arrays</a>
 
-## <a href="codes/sorting">Sorting in Arrays</a>
+<hr>
+
+## <li><a href="codes/sorting">Sorting in Arrays</a>
 
 <ul>
 <li><a href="codes/sorting/selectionsort.cpp">Selection Sort</a></li>
 <p>Selection Sort: <br>Find the minimum element in unsorted array and swap it with element at begining.</p>
- <li><a href="codes/sorting/bubblesort.cpp">Bubble Sort</a></li>
+
+<li><a href="codes/sorting/bubblesort.cpp">Bubble Sort</a></li>
 <p>Bubble Sort:<br>Repeatedly swap two adjacent elements if they are in wrong order.</p>
+
 <li><a href="codes/sorting/insertionsort.cpp">Insertion Sort</a></li>
- <p>Insertion sort: <br>Insert an element from unsorted array to it's correct position in sorted array.</p>
+<p>Insertion sort: <br>Insert an element from unsorted array to it's correct position in sorted array.</p></li>
+
+<li><a href="codes/sorting/mergesort.cpp">Merge Sort</a></li>
+<li><a href="">Quick Sort</a></li>
+<li><a href="">Count Sort</a></li>
+<li><a href="">DNF Sort</a></li>
+<li><a href="">Wave Sort</a></li>
+<li><a href="">Count Inversion</a></li>
 <li><a href="codes/sorting/sorting.js">Sorting in JS</a></li>
 
 </ul>
 </ul>
 
+
+
+<hr>
+
 ## SubArrays vs SubSequences:
+
 ### Subarray:
+
 <ul>
 <li>Continuous part of the array.
 <li>Number of subarrays of an array with n elements = nC2+n = n*(n+1)/2.
@@ -34,12 +54,16 @@
 </ul>
 
 ### SubSequence:
+
 <ul>
 <li>A subsequence is a sequence that can be derived an array by selecting zero or more elements, without changing the order of the remaining elements.
 <li>Number of subsequences of an array with n elements = 2^n
 </ul>
 
->Every subarray is a subsequence but every subsequence is not a subarray.
+> Every subarray is a subsequence but every subsequence is not a subarray.
+
+
+<hr>
 
 ### <a href="codes/problemset1">Problem Set 1(Arrays)</a>
 
