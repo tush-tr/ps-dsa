@@ -17,9 +17,7 @@
 
 ## Problem Set 2
 
-
-
-<li><a href="problemset2/prob5.js">Find a unique number in an array where alln numbers except one, are present twice.</a></li>
-<li><a href="problemset2/prob6.js">Find 2 unique numbers in an array where all numbers except two are present twice.</a></li>
-<li><a href="problemset2/prob8.js">Find a unique number in an array where all numbers except one, are present thrice.</a></li>
+<li><a href="problemset2/prob5.cpp">Find a unique number in an array where alln numbers except one, are present twice.</a></li>
+<li><a href="problemset2/prob6.cpp">Find 2 unique numbers in an array where all numbers except two are present twice.</a></li>
+<li><a href="problemset2/prob8.cpp">Find a unique number in an array where all numbers except one, are present thrice.</a></li>
 </ol>
