@@ -1,6 +1,6 @@
 # Data Structures and Algorithm concepts and practice:
 
-
+### <li><a href="DSA_CONCEPTS">Complete DSA Concepts</a>
 ### <li><a href="#dsa-one">Complete DSA topics and quesions in C++/JavaScript</a>
 ### <li><a href="#dsa-practices">Data structures and algorithms with a lot of questions in C++ and JavaScript</a>
 ### <li> <a href="#intro">Getting Started with algorithms using python</a>
@@ -9,15 +9,33 @@
 
 <hr>
 
-<h2 id="intro"> Introduction to Algorithms</h2>
-<p>In this we are using python language.</p>
+# Data Structures and Algorithms using C/C++
+<ol>
+<li><a href="DSA_CONCEPTS/cpp_concepts">C/C++ important Concepts</a>
+<li><a href="DSA_CONCEPTS/important_programming_stuff">Required Steps for Programming</a>
+<li><a href="DSA_CONCEPTS/Introduction">Introduction</a>
+<li><a href="DSA_CONCEPTS/Recursion">Recursion</a>
+<li><a href="DSA_CONCEPTS/Arrays_representation">Arrays Representations</a>
+<li><a href="DSA_CONCEPTS/Array_ADT">Array ADT</a>
+<li><a href="DSA_CONCEPTS/Strings">Strings</a>
+<li><a href="DSA_CONCEPTS/Matrices">Matrices</a>
+<li><a href="DSA_CONCEPTS/Sparse_matrix_polynomical_representation">Sparse Matrix and polynomial representation</a>
+<li><a href="DSA_CONCEPTS/Linked_list">Linked List</a>
+<li><a href="DSA_CONCEPTS/Sparse_matrix_polynomial_linked_list">Sparse Matrix and polynomial using Linked List</a>
+<li><a href="DSA_CONCEPTS/Stack">Stack</a>
+<li><a href="DSA_CONCEPTS/Queues">Queues</a>
+<li><a href="DSA_CONCEPTS/Trees">Trees</a>
+<li><a href="DSA_CONCEPTS/BST">Binary Search Trees</a>
+<li><a href="DSA_CONCEPTS/AVL_Trees">AVL Trees</a>
+<li><a href="DSA_CONCEPTS/Search_Trees">Search Trees</a>
+<li><a href="DSA_CONCEPTS/Heap">Heap</a>
+<li><a href="DSA_CONCEPTS/Sorting">Sorting Techniques</a>
+<li><a href="DSA_CONCEPTS/Hashing">Hashing Technique</a>
+<li><a href="DSA_CONCEPTS/Graphs">Graphs</a>
+<li><a href="DSA_CONCEPTS/asymptotic_notations">Asymptotic Notations</a>
+</ol>
 
-1. <a href="algorithms_concepts/introduction/start.py">Starting with algorithms</a>
-2. <a href="algorithms_concepts/data_structures">Introduction to  Data Strurcutures</a>
-3. <a href="algorithms_concepts/recursion"> Recursion</a>
-4. <a href="algorithms_concepts/sorting"> Sorting Algorithms</a>
-5. <a href="algorithms_concepts/searching_data">Searching Data</a>
-6. <a href="algorithms_concepts/other_algorithms"> Other Algorithms</a>
+
 <hr>
 
 <h2 id="dsa-one"><a href="dsa-one"> Data Structures and Algorithms: DSA ONE</a></h2>
