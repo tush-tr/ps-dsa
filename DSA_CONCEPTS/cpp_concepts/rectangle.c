@@ -22,7 +22,4 @@ int main(){
     printf("%d \n",ar);
     changeLength(&r,20);
     printf("%d %d\n",r.length,r.breadth);
-
-
-
 }
