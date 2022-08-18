@@ -1,8 +1,6 @@
 # Mastering Data Structures and Algorithms
 <ol>
 <li><a href="cpp_concepts">C/C++ important Concepts</a>
-<li><a href="important_programming_stuff">Required Steps for Programming</a>
-<li><a href="Introduction">Introduction</a>
 <li><a href="Recursion">Recursion</a>
 <li><a href="Arrays_representation">Arrays Representations</a>
 <li><a href="Array_ADT">Array ADT</a>
