@@ -7,7 +7,7 @@
 - <a href="indirect_recursion.cpp">Indirect Recursion</a>
 - <a href="nested_recursion.cpp">Nested Recursion</a>
 - <a href="sum.cpp">Sum of n natural numbers</a>
-- <a href=""></a>
+- <a href="factorial.cpp">Factorial using Recursion and iteration</a>
 - <a href=""></a>
 - <a href=""></a>
 - <a href=""></a>
