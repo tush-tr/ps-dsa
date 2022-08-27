@@ -8,7 +8,7 @@ down or right at any point in time.Given the two integers m and n, return the nu
 that the robot can take to reach the bottom-right corner.
 */
 
-// Solving it using recursion, it for better solution we can use dynamic programming in it.
+// Solving it using recursion, for better solution we can use dynamic programming in it.
 
 int count(int m,int n){
     if(m==1 || n==1){
