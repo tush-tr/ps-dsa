@@ -1,0 +1,21 @@
+# Only Important and popular questions Topic Wise
+
+- <a href="">Mathematics</a>
+- <a href="">Bit Manipulation</a>
+- <a href="">Recursion</a>
+- <a href="">Backtracking</a>
+- <a href="">Arrays</a>
+- <a href="">Strings</a>
+- <a href="">Sorting Techniques</a>
+- <a href="">Linked List</a>
+- <a href="">Stack</a>
+- <a href="">Queue</a>
+- <a href="">Binary Tree</a>
+- <a href="">Binary Search Tree</a>
+- <a href="">Heap</a>
+- <a href="">Greedy</a>
+- <a href="">Dynamic Programming</a>
+- <a href="">Set and maps( Hashmaps) Hashing</a>
+- <a href="">Graphs</a>
+- <a href="">Trie</a>
+- <a href="">Segment Trees</a>
