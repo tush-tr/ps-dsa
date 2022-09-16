@@ -10,7 +10,7 @@ int main(){
     for(int i=0;i<20;i++){
         if(H[i]>1){
             cout<<"Number "<<i<<" is appearing "<<H[i]<<" times."<<endl;
-        }
+        }  
     }
 
 
